@@ -1,17 +1,17 @@
 {
-  "dependencies": {
-    "ejs": "3.1.10",
-    "express": "4.19.2"
-  },
   "name": "actividad-motor-de-plantillas",
   "description": "Desarrollar una aplicación web utilizando NodeJS y el motor de plantillas EJS. El objetivo es transformar una landing page estática en múltiples páginas reutilizando componentes, de acuerdo a los diseños proporcionados.",
   "version": "1.0.0",
   "main": "app.js",
-  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "3.1.10",
+    "express": "4.19.2"
+  }
 }
